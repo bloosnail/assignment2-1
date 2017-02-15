@@ -6,9 +6,9 @@ function checkName(event){
     var f = document.getElementById("myForm");
     f.parentNode.removeChild(f);
 	
-    }else{
-      text = "You have to have a name and it can only have letters (sorry yours is invalid)."
-    }
+  }else{
+    text = "You have to have a name and it can only have letters (sorry yours is invalid)."
+  }
 	
   document.getElementById("display").innerHTML = text;
 	
